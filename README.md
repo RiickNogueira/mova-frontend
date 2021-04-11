@@ -1,20 +1,24 @@
-# example-nuxt-vuetify
+# Busca de Países
 
-## Build Setup
+## _Frontend_
 
-```bash
-# install dependencies
-$ npm install
+## Demo
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+Veja rodando [clicando aqui](https://riicknogueira.github.io/mova-frontend.github.io/).
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+## Requisitos
 
-# generate static project
-$ npm run generate
+| Requisito | Link para download                                                  |
+| --------- | ------------------------------------------------------------------- |
+| Node      | https://nodejs.org/en/download/ |
+
+## Instalação e execução
+
+Faça download do projeto e execute os seguintes comandos na raiz
+
+```sh
+npm i
+npm run serve
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+_A API rodará na porta 8080. http://localhost:8080_

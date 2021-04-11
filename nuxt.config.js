@@ -7,6 +7,16 @@ export default {
   server: {
     port: 8080,
   },
+  router: {
+    //base: "/mova-frontend.github.io/",
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: "home",
+        path: "/",
+        component: resolve(__dirname, "pages/home/_region.vue"),
+      });
+    },
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s - example-nuxt-vuetify",
