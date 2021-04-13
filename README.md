@@ -18,7 +18,7 @@ Faça download do projeto e execute os seguintes comandos na raiz
 
 ```sh
 npm i
-npm run serve
+npm run dev
 ```
 
 _A API rodará na porta 8080. http://localhost:8080_
